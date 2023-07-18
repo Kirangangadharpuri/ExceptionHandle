@@ -14,6 +14,7 @@ namespace ExceptionHandleDemo
             {
                 Console.WriteLine("1- NormalizationForm Exception");
                 Console.WriteLine("2- Devided by zero");
+                Console.WriteLine("3- Null reference Exception");
                 Console.WriteLine("Choose above option");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
@@ -26,6 +27,10 @@ namespace ExceptionHandleDemo
                         DividedByZero dividedByZero = new DividedByZero();
                         dividedByZero.Divided_By_Zero();
                             break;
+                        case 3:
+                        NullReference_Exception nullReference_Exception = new NullReference_Exception();
+                        nullReference_Exception.NullReference();
+                        break;
                 }
             }
             

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DividedByZero.cs" />
     <Compile Include="HandleException.cs" />
+    <Compile Include="NullReference_Exception.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
