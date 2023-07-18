@@ -10,11 +10,7 @@ namespace ExceptionHandleDemo
     {
         public void NullReference()
         {
-            //List<Exception> exceptions = new List<Exception>();
-            //foreach(var e in exceptions)
-            //{
-            //    Console.WriteLine(e);
-            //}
+           
             string str = null;
             if(str!=null)
             {
